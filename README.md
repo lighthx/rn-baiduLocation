@@ -38,7 +38,7 @@
 
 ####IOS
 1. Drag 'node_modules/react-native-baidu-location/ios/BMKLocationKit.framework' to your project in xcode 
-2. `Build Settings` ➜ `Framework Search Paths` add
+2. `Build Phases` ➜ `Link binary with libaries` add
  ```
 BMKLocationKit.framework
 

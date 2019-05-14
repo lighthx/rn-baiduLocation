@@ -40,7 +40,6 @@
 		9443635421AE263F00C4ADB9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		9443635621AE264500C4ADB9 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		9443635821AE264C00C4ADB9 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
-		9443635A21AE265300C4ADB9 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
 		9443635C21AE265800C4ADB9 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		B3E7B5881CC2AC0600A0062D /* RNBaiduLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBaiduLocation.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNBaiduLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBaiduLocation.m; sourceTree = "<group>"; };
@@ -90,7 +89,6 @@
 			isa = PBXGroup;
 			children = (
 				9443635C21AE265800C4ADB9 /* AdSupport.framework */,
-				9443635A21AE265300C4ADB9 /* libc++.tbd */,
 				9443635821AE264C00C4ADB9 /* CoreTelephony.framework */,
 				9443635621AE264500C4ADB9 /* libsqlite3.0.tbd */,
 				9443635421AE263F00C4ADB9 /* Security.framework */,

@@ -11,7 +11,7 @@ export const getLocation = async () => {
     const data = await RNBaiduLocation.getLocation()
     if (isIos) {
         const promise = new Promise((resolve, reject) => {
-            if (!!data.latitutde) {
+            if (!!data.latitude) {
                 resolve(data)
             } else {
                 reject(data.errorMessage)

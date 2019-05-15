@@ -1,13 +1,13 @@
 
-# react-native-baidu-location
+# rn-bdlocation
 
 ## Getting started
 
-`$ npm install react-native-baidu-location --save`
+`$ npm install rn-bdlocation --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-baidu-location`
+`$ react-native link rn-bdlocation`
 
 ### Manual installation
 
@@ -15,7 +15,7 @@
 #### iOS
 
 1. In XCode, in the project navigator, right click `Libraries` ➜ `Add Files to [your project's name]`
-2. Go to `node_modules` ➜ `react-native-baidu-location` and add `RNBaiduLocation.xcodeproj`
+2. Go to `node_modules` ➜ `rn-bdlocation` and add `RNBaiduLocation.xcodeproj`
 3. In XCode, in the project navigator, select your project. Add `libRNBaiduLocation.a` to your project's `Build Phases` ➜ `Link Binary With Libraries`
 4. Run your project (`Cmd+R`)<
 
@@ -26,18 +26,18 @@
   - Add `new RNBaiduLocationPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-baidu-location'
-  	project(':react-native-baidu-location').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-baidu-location/android')
+  	include ':rn-bdlocation'
+  	project(':rn-bdlocation').projectDir = new File(rootProject.projectDir, 	'../node_modules/rn-bdlocation/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-baidu-location')
+      compile project(':rn-bdlocation')
   	```
 
 ## additional installation(require)
 
 ####IOS
-1. Drag 'node_modules/react-native-baidu-location/ios/BMKLocationKit.framework' to your project in xcode 
+1. Drag 'node_modules/rn-bdlocation/ios/BMKLocationKit.framework' to your project in xcode 
 2. `Build Phases` ➜ `Link binary with libaries` add
  ```
 BMKLocationKit.framework
@@ -56,7 +56,7 @@ libc++.tbd
 
 AdSupport.framework
 ```
-3. Open `Build Settings` ➜ `Framework Search Paths` add $(SRCROOT)/../node_modules/react-native-baidu-location/ios
+3. Open `Build Settings` ➜ `Framework Search Paths` add $(SRCROOT)/../node_modules/rn-bdlocation/ios
 4. Open AppDelegate.m 
 ```
 #import "AppDelegate.h"
@@ -90,7 +90,7 @@ AdSupport.framework
 ```
 ## Usage
 ```typescript
-import RNBaiduLocation from 'react-native-baidu-location';
+import RNBaiduLocation from 'rn-bdlocation';
 interface Location{
     latitude:number;
     longitude:number;
